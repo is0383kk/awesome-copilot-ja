@@ -4,3 +4,11 @@ Copilot-Processing.md
 
 # macOS system files
 .DS_Store
+
+# opancode
+.opencode
+opencode.jsonc
+AGENTS.md
+
+# serena
+.serena
