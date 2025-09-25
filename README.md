@@ -1,28 +1,28 @@
-# 🤖 Awesome GitHub Copilot Customizations
+# 🤖 Awesome GitHub Copilot カスタマイゼーション
 
 [![Powered by Awesome Copilot](https://img.shields.io/badge/Powered_by-Awesome_Copilot-blue?logo=githubcopilot)](https://aka.ms/awesome-github-copilot)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-86-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-A curated collection of prompts, instructions, and chat modes to supercharge your GitHub Copilot experience across different domains, languages, and use cases.
+さまざまなドメイン、言語、ユースケースで GitHub Copilot の体験を強化するためのプロンプト、指示、チャットモードのキュレーションされたコレクション。
 
-## 🚀 What is Awesome GitHub Copilot?
+## 🚀 Awesome GitHub Copilot とは？
 
-This repository provides a comprehensive toolkit for enhancing GitHub Copilot with specialized:
+このリポジトリでは、以下の特化した要素で GitHub Copilot を強化するための包括的なツールキットを提供します：
 
-- **[![Awesome Prompts](https://img.shields.io/badge/Awesome-Prompts-blue?logo=githubcopilot)](README.prompts.md)** - Focused, task-specific prompts for generating code, documentation, and solving specific problems
-- **[![Awesome Instructions](https://img.shields.io/badge/Awesome-Instructions-blue?logo=githubcopilot)](README.instructions.md)** - Comprehensive coding standards and best practices that apply to specific file patterns or entire projects
-- **[![Awesome Chat Modes](https://img.shields.io/badge/Awesome-Chat_Modes-blue?logo=githubcopilot)](README.chatmodes.md)** - Specialized AI personas and conversation modes for different roles and contexts
+- **[![Awesome Prompts](https://img.shields.io/badge/Awesome-Prompts-blue?logo=githubcopilot)](README.prompts.md)** - コード生成、ドキュメント作成、特定の問題解決のための焦点を絞ったタスク固有のプロンプト
+- **[![Awesome Instructions](https://img.shields.io/badge/Awesome-Instructions-blue?logo=githubcopilot)](README.instructions.md)** - 特定のファイルパターンやプロジェクト全体に適用される包括的なコーディング標準とベストプラクティス
+- **[![Awesome Chat Modes](https://img.shields.io/badge/Awesome-Chat_Modes-blue?logo=githubcopilot)](README.chatmodes.md)** - 異なる役割やコンテキストに特化した AI ペルソナと会話モード
 
-## MCP Server
+## MCP サーバー
 
-To make it easy to add these customizations to your editor, we have created a [MCP Server](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server) that provides a prompt for searching and installing prompts, instructions, and chat modes directly from this repository.
+これらのカスタマイゼーションをエディタに簡単に追加できるよう、このリポジトリから直接プロンプト、指示、チャットモードを検索・インストールするためのプロンプトを提供する [MCP サーバー](https://developer.microsoft.com/blog/announcing-awesome-copilot-mcp-server)を作成しました。
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode) [![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode-insiders)
 
 <details>
-<summary>Show MCP Server JSON configuration</summary>
+<summary>MCP サーバーの JSON 設定を表示</summary>
 
 ```json
 {
@@ -43,72 +43,72 @@ To make it easy to add these customizations to your editor, we have created a [M
 
 </details>
 
-## 🔧 How to Use
+## 🔧 使用方法
 
-### 🎯 Prompts
-Use the `/` command in GitHub Copilot Chat to access prompts:
+### 🎯 プロンプト
+GitHub Copilot Chat で `/` コマンドを使用してプロンプトにアクセスします：
 ```
 /awesome-copilot create-readme
 ```
 
-### 📋 Instructions
-Instructions automatically apply to files based on their patterns and provide contextual guidance for coding standards, frameworks, and best practices.
+### 📋 指示
+指示はファイルのパターンに基づいて自動的に適用され、コーディング標準、フレームワーク、ベストプラクティスに関するコンテキスト指導を提供します。
 
-### 💭 Chat Modes
-Activate chat modes to get specialized assistance from AI personas tailored for specific roles like architects, DBAs, or security experts.
+### 💭 チャットモード
+チャットモードを有効化すると、アーキテクト、DBA、セキュリティエキスパートなどの特定の役割に特化した AI ペルソナから専門的な支援を受けることができます。
 
-## 🤝 Contributing
+## 🤝 コントリビューション
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to:
-- Add new prompts, instructions, or chat modes
-- Improve existing content
-- Report issues or suggest enhancements
+コントリビューションを歓迎しています！以下の方法について詳しくは、[コントリビューションガイドライン](CONTRIBUTING.md)をご覧ください：
+- 新しいプロンプト、指示、チャットモードの追加
+- 既存のコンテンツの改善
+- 問題の報告や機能拡張の提案
 
-### Quick Contribution Guide
-1. Follow our file naming conventions and frontmatter requirements
-2. Test your contributions thoroughly
-3. Update the appropriate README tables
-4. Submit a pull request with a clear description
+### クイックコントリビューションガイド
+1. ファイル命名規則とフロントマター要件に従う
+2. あなたのコントリビューションを十分にテストする
+3. 適切な README テーブルを更新する
+4. 明確な説明と共にプルリクエストを提出する
 
-## 📖 Repository Structure
+## 📖 リポジトリ構造
 
 ```
-├── prompts/          # Task-specific prompts (.prompt.md)
-├── instructions/     # Coding standards and best practices (.instructions.md)
-├── chatmodes/        # AI personas and specialized modes (.chatmode.md)
-└── scripts/          # Utility scripts for maintenance
+├── prompts/          # タスク固有のプロンプト（.prompt.md）
+├── instructions/     # コーディング標準とベストプラクティス（.instructions.md）
+├── chatmodes/        # AI ペルソナと特化モード（.chatmode.md）
+└── scripts/          # メンテナンス用ユーティリティスクリプト
 ```
 
-## 🌟 Getting Started
+## 🌟 はじめに
 
-1. **Browse the Collections**: Check out our comprehensive lists of [prompts](README.prompts.md), [instructions](README.instructions.md), and [chat modes](README.chatmodes.md).
-2. **Add to your editor**: Click the "Install" button to install to VS Code, or copy the file contents for other editors.
-3. **Start Using**: Copy prompts to use with `/` commands, let instructions enhance your coding experience, or activate chat modes for specialized assistance.
+1. **コレクションを閲覧**: [プロンプト](README.prompts.md)、[指示](README.instructions.md)、[チャットモード](README.chatmodes.md)の包括的なリストをご確認ください。
+2. **エディタに追加**: 「Install」ボタンをクリックしてVS Codeにインストールするか、他のエディタ用にファイル内容をコピーしてください。
+3. **使用開始**: プロンプトをコピーして `/` コマンドで使用したり、指示でコーディング体験を強化したり、専門的な支援のためにチャットモードを有効化してください。
 
-## 📄 License
+## 📄 ライセンス
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+このプロジェクトは MIT ライセンスの下でライセンスされています - 詳細は [LICENSE](LICENSE) ファイルをご覧ください。
 
-## 🛡️ Security & Support
+## 🛡️ セキュリティ・サポート
 
-- **Security Issues**: Please see our [Security Policy](SECURITY.md)
-- **Support**: Check our [Support Guide](SUPPORT.md) for getting help
-- **Code of Conduct**: We follow the [Contributor Covenant](CODE_OF_CONDUCT.md)
+- **セキュリティ問題**: [セキュリティポリシー](SECURITY.md)をご覧ください
+- **サポート**: ヘルプについては[サポートガイド](SUPPORT.md)をご確認ください
+- **行動規範**: [コントリビューター規約](CODE_OF_CONDUCT.md)に従います
 
-## 🎯 Why Use Awesome GitHub Copilot?
+## 🎯 Awesome GitHub Copilot を使う理由
 
-- **Productivity**: Pre-built prompts and instructions save time and provide consistent results
-- **Best Practices**: Benefit from community-curated coding standards and patterns
-- **Specialized Assistance**: Access expert-level guidance through specialized chat modes
-- **Continuous Learning**: Stay updated with the latest patterns and practices across technologies
+- **生産性**: 事前構築されたプロンプトと指示により時間を節約し、一貫した結果を提供
+- **ベストプラクティス**: コミュニティがキュレーションしたコーディング標準とパターンから恩恵を受ける
+- **専門的な支援**: 特化したチャットモードを通じて専門家レベルのガイダンスにアクセス
+- **継続的な学習**: 技術全体の最新パターンと実践を常に把握
 
 ---
 
-**Ready to supercharge your coding experience?** Start exploring our [prompts](README.prompts.md), [instructions](README.instructions.md), and [chat modes](README.chatmodes.md)!
+**コーディング体験を強化する準備はできましたか？** [プロンプト](README.prompts.md)、[指示](README.instructions.md)、[チャットモード](README.chatmodes.md)の探索を始めましょう！
 
-## Contributors ✨
+## コントリビューター ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+これらの素晴らしい人々に感謝します（[絵文字キー](https://allcontributors.org/docs/en/emoji-key)）：
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -244,19 +244,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+このプロジェクトは [all-contributors](https://github.com/all-contributors/all-contributors) 仕様に従っています。あらゆる種類のコントリビューションを歓迎します！
 
-## 📚 Additional Resources
+## 📚 追加リソース
 
-- [VS Code Copilot Customization Documentation](https://code.visualstudio.com/docs/copilot/copilot-customization) - Official Microsoft documentation
-- [GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - Complete chat feature guide
-- [Custom Chat Modes](https://code.visualstudio.com/docs/copilot/chat/chat-modes) - Advanced chat configuration
-- [VS Code Settings](https://code.visualstudio.com/docs/getstarted/settings) - General VS Code configuration guide
+- [VS Code Copilot カスタマイゼーションドキュメント](https://code.visualstudio.com/docs/copilot/copilot-customization) - Microsoft 公式ドキュメント
+- [GitHub Copilot Chat ドキュメント](https://code.visualstudio.com/docs/copilot/chat/copilot-chat) - 完全なチャット機能ガイド
+- [カスタムチャットモード](https://code.visualstudio.com/docs/copilot/chat/chat-modes) - 高度なチャット設定
+- [VS Code 設定](https://code.visualstudio.com/docs/getstarted/settings) - 一般的な VS Code 設定ガイド
 
-## ™️ Trademarks
+## ™️ 商標
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
-trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+このプロジェクトには、プロジェクト、製品、またはサービスの商標やロゴが含まれる場合があります。Microsoft の商標またはロゴの許可された使用は、[Microsoft の商標・ブランドガイドライン](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general)に従う必要があります。このプロジェクトの改変版で Microsoft の商標やロゴを使用する場合、混乱を招いたり Microsoft のスポンサーシップを暗示したりしてはなりません。第三者の商標やロゴの使用については、それらの第三者のポリシーに従います。
